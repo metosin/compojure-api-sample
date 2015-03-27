@@ -1,4 +1,4 @@
-(defproject api-template "0.1.0-SNAPSHOT"
+(defproject sample "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
@@ -7,7 +7,7 @@
 
                  [http-kit "2.1.19"]
                  [metosin/compojure-api "0.18.0"]
-                 [metosin/ring-http-response "0.6.0"]
+                 [metosin/ring-http-response "0.6.1"]
                  [metosin/ring-swagger-ui "2.0.24"]
                  [ring/ring-defaults "0.1.4"]
 
