@@ -6,7 +6,7 @@
 
 (defn base-system [& [config]]
   (component/system-map
-    :env           (create-env {:http {:port 3000}})
+    :env           (create-env config)
     :handler       (using (create-handler 'sample.api/api) [:env])
     :http-server   (using (start-http-kit) [:handler :env])))
 
