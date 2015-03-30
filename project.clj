@@ -6,7 +6,7 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
 
                  [http-kit "2.1.19"]
-                 [metosin/compojure-api "0.18.0"]
+                 [metosin/compojure-api "0.19.0"]
                  [metosin/ring-http-response "0.6.1"]
                  [metosin/ring-swagger-ui "2.0.24"]
                  [ring/ring-defaults "0.1.4"]
